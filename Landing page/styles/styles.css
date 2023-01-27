@@ -81,12 +81,13 @@ main {
     background-image: url(../Group3.png);
     height:100vh;
     text-align: center;
+    display: inline;
 
 }
 .overlay1 {
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.4) ;
+    background-color: rgba(0,0,0,0.7) ;
     position: absolute;
 
 
