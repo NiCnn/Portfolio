@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@400;700&display=swap');
+
+header {
+height: 176px;
+background-image: url(../headerBc1.png);
+color: white;
+position: absolute;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+z-index: 1;
+
+}
+.welcome {
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(../Header-bg.png);
+    background-size: cover;
+}
+.container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+header nav ul li {
+    margin: 0 10px;
+}
+body {
+    font-family: 'Mali', cursive;
+    font-size: 20px;
+}
+
+header .logo {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-image: url("../logo.png");
+    background-size: cover;
+    background-position: center center;
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4) ;
+    position: absolute;
+
+}
+.welcome h1,
+.welcome h2, 
+.welcome a {
+    z-index: 1;
+}
+
+button {
+
+ background-color:rgba(60, 91, 138, 1);
+ border-radius: 34%;
+ color: white;
+ cursor: pointer;
+
+
+}
+main {
+    color: white;
+
+}
+.creativ {
+    background-image: url(../Group3.png);
+    height:100vh;
+    text-align: center;
+
+}
+.overlay1 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4) ;
+    position: absolute;
+
+
+}
+.works {
+    background-image: url(../bc.png);
+    height: 100vh;
+    
+    
+}
+footer {
+	width: 100%;
+	height: 100px;
+	background-color: black;
+	
+}
+footer img {
+	width: 100px;
+
+	height: 100px;
+	
+}
